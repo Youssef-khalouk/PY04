@@ -22,6 +22,7 @@ try:
 
     print("\nData inscription complete. Storage unit sealed.")
     print(f"Archive '{file_name}' ready for long-term preservation.")
+
     file.close()
 
 except FileNotFoundError as e:
